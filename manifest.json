@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Borderify" ,
+    "version": "1.0" ,
+    "description": "Sample Add-on",
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js":["borderify.js"]
+        }
+
+    ]
+}
